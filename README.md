@@ -29,8 +29,8 @@ git clone [https://github.com/yunusemreyl/hp-omen-rgb-dkms.git](https://github.c
 cd hp-omen-rgb-dkms
 sudo ./install.sh
 Method 2: Manual Installation (DKMS)
-If you prefer to handle the DKMS process manually:
 ```
+If you prefer to handle the DKMS process manually:
 ```bash
 # 1. Copy source files to the system source directory
 sudo cp -r . /usr/src/hp-omen-rgb-1.0
