@@ -25,7 +25,7 @@ While the original project aimed to replace the stock HP drivers entirely (handl
 ### Method 1: Automatic Installer (Recommended)
 This script detects your distribution, installs dependencies (DKMS, Headers), and sets up the driver.
 ```bash
-git clone [https://github.com/yunusemreyl/hp-omen-rgb-dkms.git](https://github.com/yunusemreyl/hp-omen-rgb-dkms.git)
+git clone https://github.com/yunusemreyl/hp-omen-rgb-dkms.git
 cd hp-omen-rgb-dkms
 sudo ./install.sh
 ```
