@@ -30,8 +30,8 @@ cd hp-omen-rgb-dkms
 sudo ./install.sh
 Method 2: Manual Installation (DKMS)
 If you prefer to handle the DKMS process manually:
-
-Bash
+```
+```bash
 # 1. Copy source files to the system source directory
 sudo cp -r . /usr/src/hp-omen-rgb-1.0
 
@@ -44,6 +44,8 @@ sudo dkms install -m hp-omen-rgb -v 1.0
 
 # 4. Load the module
 sudo modprobe hp-omen-rgb
+```
+
 🎮 Usage
 The driver exposes a direct interface at /sys/devices/platform/hp-omen-rgb/.
 
@@ -59,12 +61,13 @@ zone3: Numpad / Macro Keys
 
 Examples:
 
-Bash
+```bash
 # Set WASD (Zone 0) to Red
 echo "FF0000" | sudo tee /sys/devices/platform/hp-omen-rgb/zone0
 
 # Set Center (Zone 1) to Green
 echo "00FF00" | sudo tee /sys/devices/platform/hp-omen-rgb/zone1
+```
 ⚠️ Compatibility
 This driver uses the HP WMI GUID 5FB7F034-2C63-45e9-BE91-3D44E2C707E4. It is tested on:
 
