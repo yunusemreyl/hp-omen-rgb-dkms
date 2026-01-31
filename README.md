@@ -28,8 +28,8 @@ This script detects your distribution, installs dependencies (DKMS, Headers), an
 git clone [https://github.com/yunusemreyl/hp-omen-rgb-dkms.git](https://github.com/yunusemreyl/hp-omen-rgb-dkms.git)
 cd hp-omen-rgb-dkms
 sudo ./install.sh
-Method 2: Manual Installation (DKMS)
 ```
+Method 2: Manual Installation (DKMS)
 If you prefer to handle the DKMS process manually:
 ```bash
 # 1. Copy source files to the system source directory
