@@ -70,7 +70,8 @@ echo "FF0000" | sudo tee /sys/devices/platform/hp-omen-rgb/zone0
 echo "00FF00" | sudo tee /sys/devices/platform/hp-omen-rgb/zone1
 ```
 ⚠️ Compatibility
-This driver uses the HP WMI GUID 5FB7F034-2C63-45e9-BE91-3D44E2C707E4. It is tested on:
+This driver uses the HP WMI GUID 5FB7F034-2C63-45e9-BE91-3D44E2C707E4. 
+It is tested on:
 
 HP Victus 16 (Intel/AMD variants)
 
